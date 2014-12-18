@@ -111,6 +111,25 @@ header #slider {
   height: 700px;
   background: url("/_img/banner_bg.jpg") no-repeat;
   background-size: cover; }
+  header #slider .container {
+    position: relative; }
+  header #slider .makeq {
+    width: 168px;
+    height: 42px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 441px;
+    left: 0;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 42px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px; }
   header #slider .anim-slide .container {
     position: relative;
     height: 700px; }
