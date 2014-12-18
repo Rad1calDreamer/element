@@ -25,6 +25,77 @@ jQuery(document).ready(function($) {
     $('#images .tabs.active').removeClass('active')
     $('#images .tabs[data-prj=' + $(this).attr('id')).addClass('active');
   });
+
+  $(".anim-slider").animateSlider(
+      {
+        autoplay: true,
+        interval: 4000,
+        animations: {
+          0: 	//Slide No1
+          {
+            img: {
+              show: "fadeIn",
+              hide: "fadeOut",
+              delayShow: ""
+
+            },
+            ".title": {
+              show: "fadeIn",
+              hide: "fadeOut",
+              delayShow: "delay0-75s"
+
+            },
+            ".text": {
+              show: "bounceInLeft",
+              hide: "bounceOutLeft",
+              delayShow: "delay0-5s"
+
+            }
+          },
+          1: 	//Slide No1
+          {
+            img: {
+              show: "fadeIn",
+              hide: "fadeOut",
+              delayShow: ""
+
+            },
+            ".title": {
+              show: "fadeIn",
+              hide: "fadeOut",
+              delayShow: "delay0-75s"
+
+            },
+            ".text": {
+              show: "bounceInRight",
+              hide: "bounceOutRight",
+              delayShow: "delay0-5s"
+
+            }
+          },
+          2: 	//Slide No1
+          {
+            img: {
+              show: "fadeIn",
+              hide: "fadeOut",
+              delayShow: ""
+
+            },
+            ".title": {
+              show: "fadeIn",
+              hide: "fadeOut",
+              delayShow: "delay0-75s"
+
+            },
+            ".text": {
+              show: "bounceInRight",
+              hide: "bounceOutRight",
+              delayShow: "delay0-5s"
+
+            }
+          }
+        }
+      });
   $('.links ul').on('click', 'li', function(event) {
     $('#projects_tabs ul li#' + $(this).data('prj')).click();
   });
