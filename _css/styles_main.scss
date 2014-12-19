@@ -137,8 +137,26 @@ header {
     height: 700px;
     background: url("/_img/banner_bg.jpg") no-repeat;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
     .container{
       position: relative;
+    }
+    .anim-dots{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      z-index: 22;
+      span{
+        width: 15px;
+        height: 15px;
+        background: white;
+        display: inline-block;
+        margin-right: 10px;
+        &.anim-dots-this{
+          background: red;
+        }
+      }
     }
     .makeq{
       width: 168px;

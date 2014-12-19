@@ -110,9 +110,24 @@ header #slider {
   width: 100%;
   height: 700px;
   background: url("/_img/banner_bg.jpg") no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  position: relative;
+  overflow: hidden; }
   header #slider .container {
     position: relative; }
+  header #slider .anim-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 22; }
+    header #slider .anim-dots span {
+      width: 15px;
+      height: 15px;
+      background: white;
+      display: inline-block;
+      margin-right: 10px; }
+      header #slider .anim-dots span.anim-dots-this {
+        background: red; }
   header #slider .makeq {
     width: 168px;
     height: 42px;

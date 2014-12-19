@@ -34,20 +34,20 @@ jQuery(document).ready(function($) {
           0: 	//Slide No1
           {
             img: {
-              show: "fadeIn",
-              hide: "fadeOut",
+              show: "fadeInRightBig",
+              hide: "fadeOutRightBig",
               delayShow: ""
 
             },
             ".title": {
-              show: "fadeIn",
-              hide: "fadeOut",
-              delayShow: "delay0-75s"
+              show: "fadeInLeftBig",
+              hide: "fadeOutLeftBig",
+              delayShow: ""
 
             },
             ".text": {
-              show: "bounceInLeft",
-              hide: "bounceOutLeft",
+              show: "fadeInLeftBig",
+              hide: "fadeOutLeftBig",
               delayShow: "delay0-5s"
 
             }
@@ -55,20 +55,20 @@ jQuery(document).ready(function($) {
           1: 	//Slide No1
           {
             img: {
-              show: "fadeIn",
-              hide: "fadeOut",
+              show: "fadeInRightBig",
+              hide: "fadeOutRightBig",
               delayShow: ""
 
             },
             ".title": {
-              show: "fadeIn",
-              hide: "fadeOut",
-              delayShow: "delay0-75s"
+              show: "fadeInLeftBig",
+              hide: "fadeOutLeftBig",
+              delayShow: ""
 
             },
             ".text": {
-              show: "bounceInRight",
-              hide: "bounceOutRight",
+              show: "fadeInLeftBig",
+              hide: "fadeOutLeftBig",
               delayShow: "delay0-5s"
 
             }
@@ -76,20 +76,20 @@ jQuery(document).ready(function($) {
           2: 	//Slide No1
           {
             img: {
-              show: "fadeIn",
-              hide: "fadeOut",
+              show: "fadeInRightBig",
+              hide: "fadeOutRightBig",
               delayShow: ""
 
             },
             ".title": {
-              show: "fadeIn",
-              hide: "fadeOut",
-              delayShow: "delay0-75s"
+              show: "fadeInLeftBig",
+              hide: "fadeOutLeftBig",
+              delayShow: ""
 
             },
             ".text": {
-              show: "bounceInRight",
-              hide: "bounceOutRight",
+              show: "fadeInLeftBig",
+              hide: "fadeOutLeftBig",
               delayShow: "delay0-5s"
 
             }
